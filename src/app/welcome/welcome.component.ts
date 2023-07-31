@@ -8,7 +8,7 @@ import { SharedService } from '@ng-mf/shared';
 })
 export class WelcomeComponent implements OnInit {
   user = this.sharedService.userName;
-  newName = '';
+  newName = 'Viktor';
   constructor(private sharedService: SharedService) {}
 
   ngOnInit(): void {}
